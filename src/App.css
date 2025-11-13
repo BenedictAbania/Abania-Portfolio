@@ -109,4 +109,26 @@ body {
   background-color: #333;
   color: white;
   font-size: 0.9rem;
+} 
+
+/* ... (keep all your existing CSS) ... */
+
+/* Skills Section */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skills-list li {
+  background-color: #333; /* React blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
 }
