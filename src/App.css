@@ -1,4 +1,3 @@
-/* Reset and Global Styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -117,7 +116,7 @@ body {
 .skills-list {
   list-style: none;
   padding: 0;
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
@@ -125,10 +124,24 @@ body {
 }
 
 .skills-list li {
-  background-color: #333; /* React blue */
+  background-color: #333; 
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
   font-size: 1rem;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: #61dafb;
+}
+
+.profile-picture {
+  width: 150px;        
+  height: 150px;
+  border-radius: 50%;    
+  object-fit: cover;   
+  border: 5px solid #61dafb; 
+  margin-bottom: 20px; 
 }
